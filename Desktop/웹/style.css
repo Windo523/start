@@ -1,0 +1,40 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    color: black;
+    padding: 0px;
+}
+
+.header{
+   background: red; 
+   display: flex;
+    justify-content: space-between;
+}
+.title{
+    background: yellow ;
+    border: 3px solid green;
+    cursor: pointer;
+    border-radius: 15px;
+    display: flex;
+}
+.nav{
+    display: flex;
+    background: chocolate ;
+}
+.nav > li{
+    margin-right: 10px;
+    border: 1px solid black;
+    padding: 0px;
+    margin: 10px;
+    justify-content: flex-end;
+    background: purple;
+}
+.nav > li:first-child{
+    background: green;
+}
+img{
+    width: 20px;
+    cursor: no-drop;
+}
