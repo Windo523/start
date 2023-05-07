@@ -1,0 +1,40 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    /*color: black;*/
+    padding: 0px;
+}
+.intro_bg{
+    background-image:url("image/milky way.jpg");
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    font-size:20px ;
+    text-align: center;
+    color: yellow;
+}
+.header > h1{
+    margin-bottom: 20px;
+}
+.title{
+
+}
+.introduce{
+    position: relative;
+}
+.swap{
+    position:absolute;
+    
+}
+.swap > button{
+    color: black;
+    /* border: 5px solid white; */
+    background-color: white;
+    position: center;
+    padding: 0px;
+    /* border-radius: 10px; */
+    cursor: pointer;
+    

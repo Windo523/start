@@ -10,7 +10,7 @@
 .header{
    background: red; 
    display: flex;
-    justify-content: space-between;
+   justify-content: space-between;
 }
 .title{
     background: yellow ;
@@ -33,6 +33,28 @@
 }
 .nav > li:first-child{
     background: green;
+}
+.searcharea{
+    /*background: pink;*/
+    border: 1px solid silver;
+    width: 300px;
+    height: 35px;
+    padding: 3px;
+    border-radius: 10px;
+    float: left;
+}
+.searcharea > input{
+    border: 0px;
+    width: 235px;
+    padding: 10px;
+
+}
+.searcharea > button{
+    border:none;
+    background-color: white;
+    cursor: pointer;
+    width: 38.984px;
+    height: 35px;
 }
 img{
     width: 20px;
